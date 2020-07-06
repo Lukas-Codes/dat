@@ -56,8 +56,23 @@
     f2.add(obj, 'noiseStrength');
 
     var f3 = f2.addFolder('Nested Folder');
-    f3.add(obj, 'growthSpeed');
-
+    f3.add(obj, 'growthSpeed')
   </script>
+  
+  <style>
+    f1 {
+        color: black;
+    }
+    f2 {
+        color: black; 
+    }
+    f3 {
+        color: black;
+    }
+    gui { 
+        background-color: whitesmoke;
+    }
+    </style>
+ 
 </body>
 </html>
